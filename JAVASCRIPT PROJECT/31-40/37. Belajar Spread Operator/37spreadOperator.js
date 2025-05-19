@@ -1,5 +1,5 @@
 // Spread Operator =    allows an iterable such as an 
-// ...                    array or string to be expanded 
+// ... (ifArgument)     array or string to be expanded 
 //                      in places where are zero or more 
 //                      arguments are expected 
 //                      (unpack the element) 
