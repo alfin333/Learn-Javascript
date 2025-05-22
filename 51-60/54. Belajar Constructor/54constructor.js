@@ -24,7 +24,7 @@ function showPropertiesMethods(object){
     console.log(`${object.umur}`);
     console.log(`${object.ipk}`);
     object.study();
-    console.log(``)
+    console.log(``);
 }
 
 // intinya constructor berguna untuk langsung mengisi 
