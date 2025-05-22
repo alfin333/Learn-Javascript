@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label>
+            Nama Lengkap: <br>
+            <input type="text" placeholder="Masukkan nama" onfocus="this.placeholder=''"
+                onblur="this.placeholder='Masukkan nama'">
+        </label>
+        <!-- karena dia dalam label bisa klik text nama lengkap -->
+        <label>
+            <p>
+                Jenis Kelamin : <br>
+                <select>
+                    <option>Laki-laki</option>
+                    <option>Perempuan</option>
+                </select>
+        </label>
+        <p>
+            Skill : <br>
+            <label>
+
+                <input type="checkbox"> HTML
+            </label>
+            <label>
+                <input type="checkbox"> Javascript
+            </label>
+        <p>
+            <label>
+                Pesan : <br>
+                <textarea placeholder="Masukkan Pesan" onfocus="this.placeholder=''"
+                    onblur="this.placeholder='Masukkan Pesan'"></textarea>
+            </label>
+        <p>
+            <input type="submit">
+    </form>
+</body>
+
+</html>
