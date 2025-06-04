@@ -13,3 +13,6 @@ function loadFile(){
 const promise = loadFile();
 promise.then(value => console.log(value))
        .catch(error => console.log(error));
+
+console.log("1. proses coy")
+// meskipun console lognya dibawah, tapi console log ini yang dieksekusi dulu, baru yang async
