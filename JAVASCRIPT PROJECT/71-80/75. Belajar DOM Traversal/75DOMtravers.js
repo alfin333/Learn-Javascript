@@ -25,3 +25,5 @@ children.forEach(child => {
 // otomatis dia akan cari child elemen pada id fruits, dalam hal ini
 // child elementnya adalah si <li>banana</li>
 // kalau kita pilih document.body, lastElementChild nya kemungkinan si <script>
+
+// https://www.youtube.com/watch?v=080xF4VDvjw&list=PLZPZq0r_RZOMRMjHB_IEBjOW_ufr00yG1&index=75
